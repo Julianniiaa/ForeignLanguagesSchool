@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b93046ed-58fd-432d-b2af-8942028ed176" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_openjfx_javafx_base_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_openjfx_javafx_base_win_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_openjfx_javafx_controls_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_openjfx_javafx_controls_win_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_openjfx_javafx_fxml_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_openjfx_javafx_graphics_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/Client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/ClientWork/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/ClientWork/Connect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/SchoolOrg/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/SchoolOrg/Authorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/SchoolOrg/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/SchoolOrg/Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/SchoolOrg/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/SchoolOrg/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/SchoolOrg/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/SchoolOrg/Timetable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/AddCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/AddTeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/AddTimetableController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/AdminDiagrProgress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/AdminDiagrReceive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/AdminInfController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/ChangeTeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/ChangeTimetableController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/DbWorkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/DeleteStudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/InsertMarksController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/MenuAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/MenuStudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/MenuTeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/RegCourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/ShowCoursesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/ShowGroupsTimetable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/ShowTeachController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/StudMarksController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/StudentInfController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/StudentInformationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/StudentTimetableController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/TeacherInfController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/controllers/TeacherTimetableController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/util/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/util/Dialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/util/WindowChanger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/addCourse.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/addTeacher.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/addTimetable.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/adminDiagrProgress.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/adminDiagrReceive.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/adminInformation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/changeTeacher.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/changeTimetable.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/dbWork.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/deleteStud.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/groupsTimetable.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/insertMarks.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/menuAdmin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/menuStudent.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/menuTeacher.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/regCourse.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/registration.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/showCourses.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/showTeachers.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/studMarks.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/studentInf.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/studentInformation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/studentTimetable.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/teacherInformation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/main/resources/teacherTimetable.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/ClientWork/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/ClientWork/Connect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/SchoolOrg/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/SchoolOrg/Authorization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/SchoolOrg/Courses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/SchoolOrg/Groups.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/SchoolOrg/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/SchoolOrg/Students.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/SchoolOrg/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/SchoolOrg/Timetable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/addCourse.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/addTeacher.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/addTimetable.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/adminDiagrProgress.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/adminDiagrReceive.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/adminInformation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/changeTeacher.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/changeTimetable.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/AddCourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/AddTeacherController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/AddTimetableController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/AdminDiagrProgress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/AdminDiagrReceive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/AdminInfController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/ChangeTeacherController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/ChangeTimetableController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/DbWorkController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/DeleteStudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/InsertMarksController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/MenuAdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/MenuStudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/MenuTeacherController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/RegCourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/RegistrationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/ShowCoursesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/ShowGroupsTimetable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/ShowTeachController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/StudMarksController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/StudentInfController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/StudentInformationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/StudentTimetableController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/TeacherInfController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/controllers/TeacherTimetableController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/dbWork.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/deleteStud.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/groupsTimetable.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/insertMarks.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/menuAdmin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/menuStudent.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/menuTeacher.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/module-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/regCourse.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/registration.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/showCourses.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/showTeachers.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/studMarks.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/studentInf.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/studentInformation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/studentTimetable.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/teacherInformation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/teacherTimetable.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/util/Check.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/util/Dialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/target/classes/util/WindowChanger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/ConnectionDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/ISQLAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/ISQLAuthorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/ISQLCourses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/ISQLGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/ISQLReceive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/ISQLStudents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/ISQLTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/ISQLTimetable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/SQLAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/SQLAuthorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/SQLCourses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/SQLFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/SQLGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/SQLReceive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/SQLStudents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/SQLTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DB/SQLTimetable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SchoolOrg/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SchoolOrg/Authorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SchoolOrg/Courses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SchoolOrg/Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SchoolOrg/Receive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SchoolOrg/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SchoolOrg/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SchoolOrg/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SchoolOrg/Timetable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ServerWork/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ServerWork/ServerStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ServerWork/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DB/SQLGroupsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DB/SQLStudentsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/AbstractFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/ConnectionDB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/Constant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/ISQLAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/ISQLAuthorization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/ISQLCourses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/ISQLGroups.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/ISQLReceive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/ISQLStudents.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/ISQLTeacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/ISQLTimetable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/SQLAdmin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/SQLAuthorization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/SQLCourses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/SQLFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/SQLGroups.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/SQLReceive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/SQLStudents.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/SQLTeacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/DB/SQLTimetable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SchoolOrg/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SchoolOrg/Authorization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SchoolOrg/Courses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SchoolOrg/Groups.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SchoolOrg/Receive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SchoolOrg/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SchoolOrg/Students.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SchoolOrg/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/SchoolOrg/Timetable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ServerWork/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ServerWork/ServerStart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ServerWork/Worker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/DB/SQLAuthorizationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sever/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="222iXvSKBaOpDZoi54HZfsy7gNi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/ServerWork" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\БГУИР\5-ый семестр\курсач_ПСП\ForeignLanguageSchool\Server\src\main\java\ServerWork" />
+      <recent name="D:\БГУИР\5-ый семестр\курсач_ПСП\ForeignLanguageSchool\Server\src\main\java\SchoolOrg" />
+      <recent name="D:\БГУИР\5-ый семестр\курсач_ПСП\ForeignLanguageSchool\Server\src\main\java\DB" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="DB" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SQLStudentsTest.getGrNumber">
+    <configuration name="ConnectionDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DB.ConnectionDB" />
+      <module name="Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ServerWork.ServerStart" />
+      <module name="Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ServerWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SQLAuthorizationTest.TestGetRole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DB" />
+      <option name="MAIN_CLASS_NAME" value="DB.SQLAuthorizationTest" />
+      <option name="METHOD_NAME" value="TestGetRole" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SQLGroupsTest.find" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DB" />
+      <option name="MAIN_CLASS_NAME" value="DB.SQLGroupsTest" />
+      <option name="METHOD_NAME" value="find" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SQLStudentsTest.getGrNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DB" />
+      <option name="MAIN_CLASS_NAME" value="DB.SQLStudentsTest" />
+      <option name="METHOD_NAME" value="getGrNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SQLStudentsTest.getGrNumber" />
+        <item itemvalue="JUnit.SQLGroupsTest.find" />
+        <item itemvalue="JUnit.SQLAuthorizationTest.TestGetRole" />
+        <item itemvalue="Application.ServerStart" />
+        <item itemvalue="Application.ConnectionDB" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b93046ed-58fd-432d-b2af-8942028ed176" name="Changes" comment="" />
+      <created>1639042128839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639042128839</updated>
+      <workItem from="1639042130781" duration="1332000" />
+      <workItem from="1639043490314" duration="1803000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

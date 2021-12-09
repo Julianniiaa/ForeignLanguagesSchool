@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #e5eefc;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ShowTeachController">
+    <children>
+        <Button fx:id="backButton" layoutX="21.0" layoutY="348.0" mnemonicParsing="false" onAction="#backToMain" prefHeight="37.0" prefWidth="100.0" style="-fx-background-color: #e5eefc; -fx-border-color: #c7dcf7; -fx-border-width: 3px; -fx-border-radius: 10px;" text="Назад" textAlignment="CENTER">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <AnchorPane prefHeight="72.0" prefWidth="700.0" style="-fx-background-color: #c7dcf7;">
+            <children>
+                <Label layoutX="130.0" layoutY="5.0" prefHeight="61.0" prefWidth="440.0" text="Расписание преподавателя" textAlignment="RIGHT">
+                    <font>
+                        <Font name="Bernard MT Condensed" size="35.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <Button fx:id="searchButton" layoutX="576.0" layoutY="348.0" mnemonicParsing="false" onAction="#searchteacher" prefHeight="37.0" prefWidth="100.0" style="-fx-background-color: #e5eefc; -fx-border-color: #c7dcf7; -fx-border-width: 3px; -fx-border-radius: 10px;" text="Найти" textAlignment="CENTER">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <TableView fx:id="grTimetable" layoutX="21.0" layoutY="79.0" prefHeight="254.0" prefWidth="655.0">
+            <columns>
+                <TableColumn fx:id="loginColumn" maxWidth="150.0" prefWidth="130.0" text="Логин" />
+                <TableColumn fx:id="lastnameColumn" prefWidth="130.0" text="Фамилия" />
+                <TableColumn fx:id="classColumn" prefWidth="70.0" text="Класс" />
+                <TableColumn fx:id="timeColumn" prefWidth="70.0" text="Время" />
+                <TableColumn fx:id="grColumn" prefWidth="70.0" text="№ группы" />
+                <TableColumn fx:id="languageColumn" prefWidth="95.0" text="Язык" />
+            <TableColumn fx:id="courseColumn" prefWidth="95.0" text="Курс" />
+            </columns>
+        </TableView>
+        <TextField fx:id="login" layoutX="427.0" layoutY="348.0" prefHeight="37.0" prefWidth="136.0" promptText="Логин" style="-fx-background-radius: 20px;" />
+    </children>
+</AnchorPane>

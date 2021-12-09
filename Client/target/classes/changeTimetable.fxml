@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #e5eefc;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ChangeTimetableController">
+    <children>
+        <Label layoutX="145.0" layoutY="186.0" text="Класс">
+            <font>
+                <Font size="18.0" />
+            </font></Label>
+        <Label layoutX="81.0" layoutY="109.0" prefHeight="27.0" prefWidth="219.0" text="Номер гр. для изменения">
+            <font>
+                <Font size="18.0" />
+            </font></Label>
+        <Label layoutX="142.0" layoutY="262.0" text="Время">
+            <font>
+                <Font size="18.0" />
+            </font></Label>
+        <TextField fx:id="grNumber" layoutX="301.0" layoutY="104.0" prefHeight="37.0" prefWidth="136.0" style="-fx-background-radius: 20px;" />
+        <TextField fx:id="classNumber" layoutX="301.0" layoutY="181.0" prefHeight="37.0" prefWidth="136.0" style="-fx-background-radius: 20px;" />
+        <Button fx:id="backButton" layoutX="33.0" layoutY="348.0" mnemonicParsing="false" onAction="#backToMain" prefHeight="37.0" prefWidth="100.0" style="-fx-background-color: #e5eefc; -fx-border-color: #c7dcf7; -fx-border-width: 3px; -fx-border-radius: 10px;" text="Назад" textAlignment="CENTER">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <AnchorPane prefHeight="72.0" prefWidth="700.0" style="-fx-background-color: #c7dcf7;">
+            <children>
+                <Label layoutX="227.0" layoutY="5.0" prefHeight="61.0" prefWidth="245.0" text="Change Timetable" textAlignment="RIGHT">
+                    <font>
+                        <Font name="Bernard MT Condensed" size="35.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <Button fx:id="changeButton" layoutX="574.0" layoutY="348.0" mnemonicParsing="false" onAction="#changeTimetable" prefHeight="37.0" prefWidth="112.0" style="-fx-background-color: #e5eefc; -fx-border-color: #c7dcf7; -fx-border-width: 3px; -fx-border-radius: 10px;" text="Изменить" textAlignment="CENTER">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <ComboBox id="languageList" fx:id="time" layoutX="301.0" layoutY="260.0" prefHeight="32.0" prefWidth="136.0" style="-fx-background-color: #e5eefc; -fx-border-width: 3px; -fx-border-color: #c7dcf7; -fx-border-radius: 10px;" />
+    </children>
+</AnchorPane>

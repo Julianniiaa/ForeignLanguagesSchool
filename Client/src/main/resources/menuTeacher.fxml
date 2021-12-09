@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #e5eefc;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MenuTeacherController">
+    <children>
+        <Button fx:id="backButton" layoutX="33.0" layoutY="348.0" mnemonicParsing="false" onAction="#backToMain" prefHeight="37.0" prefWidth="100.0" style="-fx-background-color: #e5eefc; -fx-border-color: #c7dcf7; -fx-border-width: 3px; -fx-border-radius: 10px;" text="Назад" textAlignment="CENTER">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <AnchorPane prefHeight="72.0" prefWidth="700.0" style="-fx-background-color: #c7dcf7;">
+            <children>
+                <Label layoutX="294.0" layoutY="5.0" prefHeight="61.0" prefWidth="111.0" text="Teacher" textAlignment="RIGHT">
+                    <font>
+                        <Font name="Bernard MT Condensed" size="35.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <Button fx:id="personalInfButton" layoutX="83.0" layoutY="90.0" mnemonicParsing="false" onAction="#persInf" prefHeight="37.0" prefWidth="214.0" style="-fx-background-color: #e5eefc; -fx-border-color: #c7dcf7; -fx-border-width: 3px; -fx-border-radius: 10px;" text="Личная информация" textAlignment="CENTER">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="showGrButton" layoutX="416.0" layoutY="162.0" mnemonicParsing="false" onAction="#showGrTimetable" prefHeight="37.0" prefWidth="214.0" style="-fx-background-color: #e5eefc; -fx-border-color: #c7dcf7; -fx-border-width: 3px; -fx-border-radius: 10px;" text="Расписание групп" textAlignment="CENTER">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="perstimetable" layoutX="83.0" layoutY="162.0" mnemonicParsing="false" onAction="#showperstimetable" prefHeight="37.0" prefWidth="214.0" style="-fx-background-color: #e5eefc; -fx-border-color: #c7dcf7; -fx-border-width: 3px; -fx-border-radius: 10px;" text="Расписание" textAlignment="CENTER">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="showTeachButton" layoutX="416.0" layoutY="90.0" mnemonicParsing="false" onAction="#showTTimetable" prefHeight="37.0" prefWidth="214.0" style="-fx-background-color: #e5eefc; -fx-border-color: #c7dcf7; -fx-border-width: 3px; -fx-border-radius: 10px;" text="Поиск преподавателей" textAlignment="CENTER">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="markButton" layoutX="83.0" layoutY="236.0" mnemonicParsing="false" onAction="#setmarkButton" prefHeight="37.0" prefWidth="214.0" style="-fx-background-color: #e5eefc; -fx-border-color: #c7dcf7; -fx-border-width: 3px; -fx-border-radius: 10px;" text="Выставить оценки" textAlignment="CENTER">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="coursesButton" layoutX="416.0" layoutY="236.0" mnemonicParsing="false" onAction="#showCourses" prefHeight="37.0" prefWidth="214.0" style="-fx-background-color: #e5eefc; -fx-border-color: #c7dcf7; -fx-border-width: 3px; -fx-border-radius: 10px;" text="Просмотреть курсы" textAlignment="CENTER">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
